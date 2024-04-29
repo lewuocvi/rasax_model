@@ -269,6 +269,23 @@ nlu:
     - MEID % SN % IMEI % ICCID % сс % 18/4 % 35656810474503 % [GONZWOU6N737](serial) % [356568104745035](imei) % Quy định % Không xác định % 上にスワイプして開く
     - MEID % SN % 314 % 35781870860399 % [FFWHQ2WQN736](serial) % IMEI % ICCID % [357818708603992](imei) % Không xác định % Quy định
     - MEID % 3528882158934 % SN % [J6023422LL](serial) % IMEI % ICCID % [352888215893415](imei) % Không xác định % Quy định % 向上海動來打
+    - 21:31 % MEID % 35288821589341 % SN % [J6023422LL](serial) % IMEI % ICCID % [352888215893415](imei) % Không xác định % Quy định % Sveip opp for å åpne % i
 - intent: chatbot_wants_to_check_icloud
   examples: |
     - check icloud
+- intent: chatbot_wants_to_register_an_account_now
+  examples: |
+    - đăng ký tài khoản với id [2123456789](userId)
+    - đăng ký tài khoản với id [2123456787](userId)
+    - đăng ký tài khoản với id [2123436789](userId)
+    - đăng ký tài khoản với id [2123356789](userId)
+- intent: chatbot_wants_to_see_the_privacy_policy
+  examples: |
+    - đọc chính sách bảo mật
+    - xem chính sách bảo mật
+    - gửi chính sách bảo mật cho tôi
+- intent: chatbot_agrees_to_the_privacy_policy
+  examples: |
+    - tôi đã đồng ý với chính sách bảo mật
+    - tôi đồng ý với chính sách bảo mật
+    - tôi đã đọc và đồng ý với chính sách bảo mật
