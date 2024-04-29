@@ -211,3 +211,57 @@ nlu:
     - MEID % SN % IMEI % ICCID % Quy định % 35299111874305 % [FK1D2230N73F](serial) % [352991118743057](imei) % Không xác định
     - MEID % SN % IMEI % ICCID % Quy định % 35285611018707 % [F2LCFBDNN70F](serial) % [352856110187076](imei) % Không xác định
     - MEID % 35727109012895 % SN % IMEI % ICCID % [FFWXDAH3KPHJ](serial) % [357271090128956](imei) % Không xác định % Quy định
+    - MEID % SN % 35032052759120 % [FG1GQKMNN72J](serial) % IMEI % ICCID % [350320527591208](imei) % Không xác định % Quy định
+    - SN % [K23HM22G57](serial) % IMEI % [350060422843995](imei) % ICCID % Không xác định % Quy định
+    - 23:30 % SN % [K23HM22G57](serial) % IMEI % [350060422843995](imei) % ICCID % Không xác định
+    - MEID % SS % SN % 35251342024478 % [F17DN6LH0DXV](serial) % IMEI % ICCID % [352513420244788](imei) % Không xác định % Quy định % ВЯ А
+    - 21:29 % MEID % 35251342024478 % SN % [F17DN6LH0DXV](serial) % IMEI % ICCID % Quy định % [352513420244788](imei) % Không xác định % Я А % jes
+    - MEID % 35284511605101 % SN % [HODH30M7N70G](serial) % IMEI % [352845116051014](imei) % ICCID % Không xác định % Quy định
+    - 12:58 % MEID % 35284511605101 % SN % [HODH30M7N70G](serial) % IMEI % [352845116051014](imei) % ICCID % Không xác định % Quy định
+    - MEID % 35655010451603 % SN % [C7CZW2TXN72K](serial) % IMEI % ICCID % [356550104516038](imei) % Không xác định % Quy định
+    - MEID % SN % IMEI % ICCID % 35727009645772 % [F2LXM6X0KPHC](serial) % О % [357270096457724](imei) % Không xác định % Alt % Quy định
+    - 15:31 % MEID % 35727009645772 % SN % [F2LXM6X0KPHC](serial) % IMEI % [357270096457724](imei) % ICCID % Không xác định % Quy định % 向上轻扫以打开
+    - 18:32 % MEID % 35619444014911 % SN % NG % [GONDR1JROD51](serial) % IMEI % ICCID % [356194440149111](imei) % Không xác định % Quy định
+    - 08:42 % MEID % SN % 35506058570926 % [GONG419H0D41](serial) % IMEI % ICCID % [355060585709269](imei) % Không xác định % Quy định % O
+    - 10:31 % MEID % 35512784045433 % SN % [C7CF20GVOGRR](serial) % IMEI % ICCID % [355127840454336](imei) % 不明 % 認証
+    - MEID % 35512784045433 % SN % IMEI % ICCID % [C7CF20GVOGRR](serial) % [355127840454336](imei) % 認証 % 不明
+    - MEID % 35721036950536 % SN % [GONFJ7VMOD43](serial) % IMEI % [357210369797216](imei) % EID 89049032 00600888 26000614 167... % ICCID % 8984012307121677431 % Quy định
+    - SN % NG % [L6FWNHY3KQ](serial) % IMEI % ICCID % [353843245321365](imei) % Không xác định % Quy định
+    - MEID % SN % NG % 35389910566824 % [F2LZMBS1N70G](serial) % IMEI % ICCID % [353899105668246](imei) % Unknown % Regulatory
+    - MEID % SN % NG % 35717750670645 % [NVGKQFMW59](serial) % IMEI % ICCID % [357177506706451](imei) % Không xác định % Quy định
+    - MEID % 35664622543627 % SN % IMEI % ICCID % [QNHQYKDQCM](serial) % [356646225436278](imei) % Không xác định % Quy định
+    - SN % [D2DXQH44WT](serial) % IMEI % [356041403006277](imei) % EID % 890490320071088881001424-66395461 % ICCID % 8984012206121833228 % Quy định
+    - MEID % 35728309458462 % SN % NG % [G6TXL9ZHKPH2](serial) % IMEI % ICCID % [357283094584621](imei) % Không xác định % Quy định
+    - 1:22 % MEID % 35973519885447 % SN % [F2MG29T60D42](serial) % IMEI % [359735198854471](imei) % ICCID % 89840480009329797388 % Quy định % Смахните вверх, % чтобы открыть
+    - 3:03 % MEID % 35114334151959 % SN % [F2LFJ1NAOD52](serial) % IMEI % ICCID % [351143341519596](imei) % Không xác định % Quy định
+    - 19:25 % MEID % SN % IMEI % ICCID % Quy định % 35389410181322 % [FK1ZFAZ2N70F](serial) % [353894101813227](imei) % Không xác định
+    - 13Dubng55160 % Hem 39 Dubng S6 % La Xuan Oal % Lê Xuân Đại % Hém 63 LE Xuin Ol % Dung S6 442 % Dung S6 442 % Dung S6 442 % Khu D % Hém % SN % Khu E % Hém 99 Le Vén % Đường Số 395 % Dubng S % Duding $5441 % Dung S6 447 % DƯƠNG SỐ 119 % [HKG7GVC792](serial) % IMEI % [357397707169354](imei) % CSN % 89049032007108888100134234090724 % Quy định % A % +
+    - SN % wwww % [FHTHVK4MHQ](serial) % IMEI % ICCID % [351195740824332](imei) % Unknown % Regulatory
+    - 11:37 % MEID % 35397710480944 % SN % [C6KZHD93N72J](serial) % IMEI % ICCID % [353977104809449](imei) % Không xác định % Quy định % Θ
+    - 21:33 % MEID % 35324710989391 % SN % [DNPCJ1XPN6XM](serial) % IMEI % [353247109893917](imei) % ICCID % Không xác định % Quy định % Vuốt lên để mở % i
+    - MEID % 35655310261563 % SN % [GONZV99GN72K](serial) % IMEI % 17 % [356553102615638](imei) % 89840200010994334324 % Quy định
+    - 02:17 % MEID % 35026390185654 % SN % IMEI % ICCID % [DX3JC9W4N736](serial) % [350263901856542](imei) % Quy định % Không xác định % Vuốt lên để mở
+    - 08:13 % MEID % 35307511884002 % SN % IMEI % [DNPDLAXCOD81](serial) % [353075118840029](imei) % ICCID % 89840480088226162110 % Quy định % 向上滑動來打開
+    - 08:13 % MEID % 35307511884002 % SN % [DNPDLAXCOD81](serial) % IMEI % [353075118840029](imei) % ICCID % 89840480088226162110 % Quy định % 向上滑動來打開
+    - MEID % SN % 35373039832018 % [GONFFC890D41](serial) % IMEI % ICCID % [353730398320189](imei) % Không xác định % Quy định
+    - 23:22 % MEID % 35759332295918 % SN % [DX3F6209N736](serial) % IMEI % ICCID % [357593322959183](imei) % Quy định % Không xác định % 向上轻扫以打开
+    - 21:48 % MEID % 35283811587729 % SN % [HODFXOFQN70C](serial) % IMEI % ICCID % [352838115877299](imei) % Không xác định % Quy định % i
+    - MEID % SN % 35077773999823 % [GONFHGU20D42](serial) % IMEI % ICCID % [350777739998234](imei) % Không xác định % Quy định
+    - MEID % SN % 35124332580389 % [NYJ5WYT6RN](serial) % IMEI % ICCID % [351243325803899](imei) % Unknown % Regulatory % Swipe up to open
+    - 12:05 % MEID % 35305809583784 % SN % NG % [DNPVXWBDJCLG](serial) % IMEI % ICCID % [353058095837846](imei) % Không xác định % Quy định % Açmak için yukarı kaydırın % i
+    - 02:16CN25thg2 % SN % IMEI % ICCID % Quy định % [DMPZM13UKD7V](serial) % [358699090601128](imei) % 8944475600034239263 % ฟร% +
+    - MEID % 35116689899842 % SN % [FXY2QPDQ5K](serial) % IMEI % [351166898998426](imei) % ICCID % 89840200011484306418 % Quy định % 向上轻扫以打开
+    - 11:50 % MEID % NG % SN % 35390610670082 % [F2LZPA6CN70G](serial) % IMEI % ICCID % [353906106700827](imei) % Không xác định % Quy định
+    - MEID % SN % NG % 35726909836772 % [F2LXPL7PKPHF](serial) % IMEI % ICCID % [357269098367725](imei) % Unknown % Regulatory % thick/overweig % 喜 % 工作 % i
+    - 12:27 % MEID % 35389110533859 % SN % [G6TZM8D5N70C](serial) % IMEI % D % [353891105338599](imei) % 89840480009175055253 % Quy định % e
+    - 22:06 % MEID % 35727709714028 % SN % [F2LXPJU9KPHJ](serial) % IMEI % ICCID % Quy định % [357277097140282](imei) % Không xác định.
+    - 03:14 % MEID % 35306110621017 % SN % IMEI % ICCID % Quy định % [F2LYFKQZKXKN](serial) % [353061106210177](imei) % Không xác định
+    - 22:53 % MEID % SN % 35913986381144 % [DX3JJ01KN735](serial) % IMEI % ICCID % [359139863811447](imei) % Không xác định % Quy định
+    - 06:06 % MEID % 35389310999535 % SN % [F2LCD6V8N70G](serial) % IMEI % ICCID % [353893109995358](imei) % Không xác định % Quy định % 向上轻扫以打开
+    - 21:05 % MEID % 35283911144963 % SN % [FCMCH0A5N70F](serial) % IMEI % ICCID % [352839111449638](imei) % Không xác định % Quy định % 上にスワイプして開く
+    - MEID % 35781443934570 % SN % [FFXGV0F10DXP](serial) % IMEI % ICCID % [357814439345706](imei) % Quy định % Không xác định % Смахните вверх, чтобы % открыть
+    - 15:37 % Hùy % 63 % Thông tin thiết bị % IMEI [352705827996768](imei) % IMEI2 [352705826507442](imei2) % SOLDERING P % 3.82V 1715mAh C % Lion Polymer % MPN:AMP % Ampse % Li-ion B...
+    - 02:24 % MEID % 35389610206121 % SN % IMEI % ICCID % Quy định % [FK1ZG79VN70C](serial) % [353896102061219](imei) % Không xác định
+    - MEID % SN % 35389510559331 % [FCHZM1SZN70G](serial) % IMEI % ICCID % [353895105593319](imei) % Không xác định % Quy định
+    - 23:30 % SN % [K23HM22G57](serial) % IMEI % [350060422843995](imei) % ICCID % Không xác định % Quy định % i
+    - MEID % 35655510295048 % SN % [DNPZVDT9N72Q](serial) % IMEI % ICD % [356555102950485](imei) % Không xác định % Quy định % 向上滑動來打開 % i
