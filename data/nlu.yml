@@ -200,3 +200,14 @@ nlu:
     - 21:19 % ( Cài đặt chung Giới thiệu % Tên % iPhone > % Phiên bản iOS % 16.7.7> % Tên kiểu máy % iPhone X % số máy % MQAK2LL/A % Só sê-ri % [G6TWV5ZUJCL3](serial) % Bảo hành % Mang % Bài hát % Video % Không có sẵn % Ảnh % Dung lượng % 64 % Khả dụng % 53,19GB
     - 14:13 % – Cài đặt chung. % Giới thiệu % Tên % iPhone > % Phiên bản iOS % 17.0.3> % Tên kiểu máy % iPhone 12 Pro Max % số máy % MGCH3LL/A % Só sê-ri % Bảo hành % [F2LG6LE00D41](serial) % Bài hát % Video % Ảnh % Dung lượng % 0 % 0 % 0 % 128GB % Khả dụng % 114,65GB % Dia chi Wi-Fi % E8:A7:30:30:BF:D3 % Bluetooth % E8:A7:30:2D:E6:79 % Vi ctrình modem % 4.06.01 % SEID
     - 15:39 % ( Cài đặt chung Giới thiệu % Tên % Phiên bản iOS % iPhone > % 17.3.1> % Tên kiểu máy % iPhone 12 % Số máy % MGF73LL/A % Só sê-ri % [DNQDLK1W0DXT](serial) % Bài hát % Video % Ảnh % Dung lượng % 0 % 0 % 0. % 64GB % Khả dụng % 51,18GB % Địa chỉ Wi-Fi % 44:F2:1B:3B:1B:FD % Bluetooth % 44:F2:1B:32:28:19 % Vi c.trình modem % 4.20.05 % SEID
+    - MEID % 35307511453911 % SN % [G6TDLOFB0D81](serial) % IMEI % ICCID % [353075114539112](imei) % Unknown
+    - MEID % 35288821589341 % SN % IMEI % ICCID % [J6023422LL](serial) % [352888215893415](imei) % Không xác định % Quy định
+    - MEID % 35288821589341 % SN % [J6023422LL](serial) % IMEI % ICCID % [352888215893415](imei) % Không xác định % Quy định
+    - MEID % 35391110730917 % SN % IMEI % ICCID % [F2LZW6XGN70V](serial) % [353911107309172](imei) % Không xác định % Quy định
+    - 1 % MEID % 35668111359284 % SN % [DNQDM1FE0D80](serial) % MEI % ICCID % [356681113592841](imei) % Không xác định % Quy định
+    - MEID % 35727409382891 % SN % [FFXXF99CKPHG](serial) % IMEI % ICCID % [357274093828911](imei) % Không xác định % Quy định
+    - MEID % 35389710813014 % SN % IMEI % ICCID % [FK1C20RGN70C](serial) % [353897108130149](imei) % 89840480000108473564 % Quy định
+    - MEID % 35301311468232 % SN % IMEI % ICCID % [FD4DT06D0GQC](serial) % [353013114682327](imei) % Không xác định % Quy định
+    - MEID % SN % IMEI % ICCID % Quy định % 35299111874305 % [FK1D2230N73F](serial) % [352991118743057](imei) % Không xác định
+    - MEID % SN % IMEI % ICCID % Quy định % 35285611018707 % [F2LCFBDNN70F](serial) % [352856110187076](imei) % Không xác định
+    - MEID % 35727109012895 % SN % IMEI % ICCID % [FFWXDAH3KPHJ](serial) % [357271090128956](imei) % Không xác định % Quy định
