@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: "2.0"
 
 intents:
@@ -29,6 +30,20 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+=======
+version: '2.0'
+config:
+  store_entities_as_slots: true
+>>>>>>> 5e17156ab0f93963c9538d05c724bc18ae1f7a99
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents: []
+entities: []
+slots: {}
+responses:
+  utter_start:
+  - text: bắt đầu
+actions: []
+forms: {}
+e2e_actions: []
