@@ -270,6 +270,7 @@ nlu:
     - MEID % SN % 314 % 35781870860399 % [FFWHQ2WQN736](serial) % IMEI % ICCID % [357818708603992](imei) % Không xác định % Quy định
     - MEID % 3528882158934 % SN % [J6023422LL](serial) % IMEI % ICCID % [352888215893415](imei) % Không xác định % Quy định % 向上海動來打
     - 21:31 % MEID % 35288821589341 % SN % [J6023422LL](serial) % IMEI % ICCID % [352888215893415](imei) % Không xác định % Quy định % Sveip opp for å åpne % i
+    - 15:13 % h % MEID % 35285079050418 % 25 % SN % [G6TDT7RUOD56](serial) % IMEI % ICCID % [352850790504189](imei) % Không xác định % Quy định % 向上滑動來打開
 - intent: chatbot_wants_to_check_icloud
   examples: |
     - check icloud
