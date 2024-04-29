@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - cu
@@ -29,7 +27,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -38,7 +35,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -48,7 +44,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -65,7 +60,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -82,14 +76,12 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: chatbots_start_conversations
   examples: |
     - Hey! Bắt đầu cuộc trò chuyện với id [9276315048](userId) để bắt đầu nào!
@@ -124,3 +116,10 @@ nlu:
     - Xin chào, bạn đã sẵn sàng bắt đầu cuộc trò chuyện chưa? Id của tôi là [7398021564](userId)
     - Hãy bắt đầu chát id của tôi là [4205179836](userId)
     - Hãy bắt đầu [6922749066](userId)
+- intent: chatbot_sends_information_extracted_from_images
+  examples: |
+    - 14:56 % ( Cài đặt chung Giới thiệu % Phiên bản iOS % 16.6> % Tên kiểu máy % iPhone 12 % số máy % MJNM38/A % Só sê-ri % [YWHD95PQF7](serial) % Bảo hành % Bài hát % Video % Ảnh % Dung lượng % Khả dụng % 0 % 0 % 0 % 64GB % 51,88GB % Địa chỉ Wi-Fi % B4:85:E1:29:0F:39 % Bluetooth % B4:85:E1:2D:0F:D5 % Vic.trinh modem % 3.80.01
+    - 21:51 % – Cài đặt chung % Giới thiệu % Tên % iPhone > % Phiên bản ios % Tên kiểu máy % 17.1.2> % iPhone 11 % NWKR2LL/A % số máy % Só sê-ri % [GXHDTON1N72N](serial) % Bảo hành % Bài hát % Video % Anh % Dung lượng % Khả dụng % > % 0 % 0 % 0 % 64GB % 52,66GB % Dia chi Wi-Fi % D8:DC:40 E6:E5:94 % Bluetooth % D8:DC:40:DF:D7:D1 % Ví c trình modem % 5.00.00
+    - 19:51 % ( Cài đặt chung % Giới thiệu % Tên % iPhone > % Phiên bản iOs % 16.6.1> % Tên kiểu máy % iPhone 12 Pro Max % Số máy % MG9G3LL/A % Só sê-ri % [F2LF21UZ0D44](serial) % Bảo hành % Bài hát % Video % Ảnh % 0 % 0 % 0 % Dung lượng % 256GB % Khả dụng % 244,6GB % Địa chỉ Wi-Fi % 14:D1:9E:DA:EF:45 % Bluetooth % 14:D1:9E:D7:18:A1 % Vi c.trình modem % 3.80.01
+    - 20:13 % ( Cài đặt chung % Giới thiệu % Tên % iPhone > % Phiên bản ios % 17.4.1> % Tên kiểu máy % iPhone 11 Pro Max % số máy % MWG52LL/A % Só sê-ri % [G6TZT2XEN70G](serial) % LỊCH SỬ LINH KIỆN VÀ DỊCH VỤ % Màn hình % Linh kiện không xác định lu> % Lịch sử linh kiện và dịch vụ được Apple thu thập và % hiển thị thông tin về trạng thái và chi tiết sửa chữa cho % Phone của bạn. Tìm hiểu thêm % Bài hát % 0 % Video % 0 % Anh % 0 % Dung lượng % 64GB % Khả dụng % 51,19GB % Địa chỉ Wi-Fi % F8:4E:73:D6:38:FC % Bluetooth % wwwww73D2EA RE
+    - 14:38 % ( Cài đặt chung % 0 % Giới thiệu % Tên % iPhone > % Phiên bản ios % 17.4> % Tên kiểu máy % iPhone 11 Pro Max % số máy % MWH42LL/A % Só sê-ri % [FK1ZD5XCN70H](serial) % LỊCH SỬ LINH KIỆN VÀ DỊCH VỤ % Linh kiện không xác định là ở % Pin % Màn hình % Linh kiện không xác định % > % Lịch sử linh kiện và dịch vụ được Apple thu thập và % hiển thị thông tin về trạng thái và chi tiết sửa chữa cho % Phone của bạn. Tìm hiểu thêm % Bài hát % Video % 0 % 0 % Ảnh % 1 % Dung lượng % 256GB % Khả dụng % 243,12GB % Dia chi Wi-Fr % 71:48:67:16
