@@ -1,47 +1,52 @@
-version: "2.0"
-
+version: '2.0'
 config:
   store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - chatbots_start_conversations
-  - chatbot_sends_greetings
-  - chatbot_sends_information_extracted_from_images
-  - chatbot_sends_imei_number
-  - chatbot_sends_serial_number
-  - chatbot_wants_to_register_an_account_now
-  - chatbot_wants_to_see_the_privacy_policy
-  - chatbot_agrees_to_the_privacy_policy
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+- nlu_fallback:
+    use_entities: true
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- chatbots_start_conversations:
+    use_entities: true
+- chatbot_sends_greetings:
+    use_entities: true
+- chatbot_sends_information_extracted_from_images:
+    use_entities: true
+- chatbot_sends_imei_number:
+    use_entities: true
+- chatbot_sends_serial_number:
+    use_entities: true
+- chatbot_wants_to_register_an_account_now:
+    use_entities: true
+- chatbot_wants_to_see_the_privacy_policy:
+    use_entities: true
+- chatbot_agrees_to_the_privacy_policy:
+    use_entities: true
+- chatbot_wants_to_check_icloud:
+    use_entities: true
+- chatbot_wants_to_check_imei:
+    use_entities: true
+- chatbot_wants_to_check_serial:
+    use_entities: true
+- chatbot_wants_to_check_iphone_info:
+    use_entities: true
+- chatbot_wants_to_check_ipad_info:
+    use_entities: true
 entities:
 - userId
 - action_name
@@ -80,6 +85,20 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: true
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
 actions:
 - fallback
 - chatbots_start_conversations
@@ -90,5 +109,10 @@ actions:
 - chatbot_wants_to_register_an_account_now
 - chatbot_wants_to_see_the_privacy_policy
 - chatbot_agrees_to_the_privacy_policy
+- chatbot_wants_to_check_icloud
+- chatbot_wants_to_check_imei
+- chatbot_wants_to_check_serial
+- chatbot_wants_to_check_iphone_info
+- chatbot_wants_to_check_ipad_info
 forms: {}
 e2e_actions: []

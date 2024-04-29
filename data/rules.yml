@@ -1,13 +1,46 @@
 version: "2.0"
-
 rules:
-
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
-
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+- rule: chatbots_start_conversations Rule
+  steps:
+  - intent: chatbots_start_conversations
+  - action: chatbots_start_conversations
+- rule: chatbot_sends_greetings Rule
+  steps:
+  - intent: chatbot_sends_greetings
+  - action: chatbot_sends_greetings
+- rule: chatbot_sends_information_extracted_from_images Rule
+  steps:
+  - intent: chatbot_sends_information_extracted_from_images
+  - action: chatbot_sends_information_extracted_from_images
+- rule: chatbot_sends_imei_number Rule
+  steps:
+  - intent: chatbot_sends_imei_number
+  - action: chatbot_sends_imei_number
+- rule: chatbot_sends_serial_number Rule
+  steps:
+  - intent: chatbot_sends_serial_number
+  - action: chatbot_sends_serial_number
+- rule: chatbot_wants_to_register_an_account_now Rule
+  steps:
+  - intent: chatbot_wants_to_register_an_account_now
+  - action: chatbot_wants_to_register_an_account_now
+- rule: chatbot_wants_to_see_the_privacy_policy Rule
+  steps:
+  - intent: chatbot_wants_to_see_the_privacy_policy
+  - action: chatbot_wants_to_see_the_privacy_policy
+- rule: chatbot_agrees_to_the_privacy_policy Rule
+  steps:
+  - intent: chatbot_agrees_to_the_privacy_policy
+  - action: chatbot_agrees_to_the_privacy_policy
+- rule: nlu_fallback Rule
+  steps:
+  - intent: nlu_fallback
+  - action: fallback
