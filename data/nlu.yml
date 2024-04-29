@@ -116,6 +116,7 @@ nlu:
     - Xin chào, bạn đã sẵn sàng bắt đầu cuộc trò chuyện chưa? Id của tôi là [7398021564](userId)
     - Hãy bắt đầu chát id của tôi là [4205179836](userId)
     - Hãy bắt đầu [6922749066](userId)
+    - bắt đầu chat với id của tôi [6922749066](userId)
 - intent: chatbot_sends_information_extracted_from_images
   examples: |
     - 14:56 % ( Cài đặt chung Giới thiệu % Phiên bản iOS % 16.6> % Tên kiểu máy % iPhone 12 % số máy % MJNM38/A % Só sê-ri % [YWHD95PQF7](serial) % Bảo hành % Bài hát % Video % Ảnh % Dung lượng % Khả dụng % 0 % 0 % 0 % 64GB % 51,88GB % Địa chỉ Wi-Fi % B4:85:E1:29:0F:39 % Bluetooth % B4:85:E1:2D:0F:D5 % Vic.trinh modem % 3.80.01
@@ -273,16 +274,22 @@ nlu:
     - 15:13 % h % MEID % 35285079050418 % 25 % SN % [G6TDT7RUOD56](serial) % IMEI % ICCID % [352850790504189](imei) % Không xác định % Quy định % 向上滑動來打開
     - ?D % MEID % 35668111359284 % SN % [DNQDM1FE0D80](serial) % MEI % [356681113592841](imei) % ICCID % Không xác định % Quy định
     - MEID % 35307511453911 % SN % [G6TDLOFB0D81](serial) % IMEI % [353075114539112](imei) % ICCID % Unknown % Regulatory % Смахните вверх, чтобы % открыть
+    - 01:07 % MEID % 35285611018707 % SN % [F2LCFBDNN70F](serial) % IMEI % [352856110187076](imei) % ICCID % Không xác định % Balayez vers le haut % pour ouvrir
+    - 3:10 % MEID % SN % IMEI % ICCID % SAMSUNG % 35083922060413 % [F17DMC1V0DXT](serial) % Samsung % GALAXY C % [350839220604133](imei) % Không xác định % Quy định % Balayez vers le haut % pour ouvrir
 - intent: chatbot_wants_to_check_icloud
   examples: |
     - check icloud
     - Check iCloud ON/OFF
+    - check icloud [352888215893415](imei)
+    - check icloud [J6023422LL](serial)
+    - check icloud [DNPZVDT9N72Q](serial)
 - intent: chatbot_wants_to_register_an_account_now
   examples: |
     - đăng ký tài khoản với id [2123456789](userId)
     - đăng ký tài khoản với id [2123456787](userId)
     - đăng ký tài khoản với id [2123436789](userId)
     - đăng ký tài khoản với id [2123356789](userId)
+    - Đăng ký tài khoản mới với id telegram = [6922749066](userId)
 - intent: chatbot_wants_to_see_the_privacy_policy
   examples: |
     - đọc chính sách bảo mật
@@ -293,3 +300,13 @@ nlu:
     - tôi đã đồng ý với chính sách bảo mật
     - tôi đồng ý với chính sách bảo mật
     - tôi đã đọc và đồng ý với chính sách bảo mật
+    - Tôi đã đọc và đồng ý với chính sách bảo mật
+    - Tôi đồng ý Tiếp tục sử dụng chatbot
+- intent: chatbot_sends_serial_number
+  examples: |
+    - [F2LCFBDNN70F](serial)
+    - [J6023422LL](serial)
+    - [F17DMC1V0DXT](serial)
+- intent: chatbot_sends_imei_number
+  examples: |
+    - [352888215893415](imei)

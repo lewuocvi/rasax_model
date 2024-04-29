@@ -54,6 +54,7 @@ entities:
 - imei
 - imei2
 - serial
+- agree_policy
 slots:
   userId:
     type: rasa.shared.core.slots.TextSlot
@@ -82,6 +83,11 @@ slots:
     influence_conversation: true
   serial:
     type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  agree_policy:
+    type: rasa.shared.core.slots.BooleanSlot
     initial_value: null
     auto_fill: true
     influence_conversation: true
