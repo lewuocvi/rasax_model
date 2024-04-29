@@ -276,6 +276,17 @@ nlu:
     - MEID % 35307511453911 % SN % [G6TDLOFB0D81](serial) % IMEI % [353075114539112](imei) % ICCID % Unknown % Regulatory % Смахните вверх, чтобы % открыть
     - 01:07 % MEID % 35285611018707 % SN % [F2LCFBDNN70F](serial) % IMEI % [352856110187076](imei) % ICCID % Không xác định % Balayez vers le haut % pour ouvrir
     - 3:10 % MEID % SN % IMEI % ICCID % SAMSUNG % 35083922060413 % [F17DMC1V0DXT](serial) % Samsung % GALAXY C % [350839220604133](imei) % Không xác định % Quy định % Balayez vers le haut % pour ouvrir
+    - MEID % 35116689899842 % SN % IMEI % [FXY2QPDQ5K](serial) % [351166898998426](imei) % ICCID % 89840200011484306418 % Quy định % 向上轻扫以打开
+    - MEID % 35923763620862 % SN % [G6TF712B0D3Y](serial) % IMEI % ICCID % [359237636208626](imei) % Không xác định % Quy định
+    - SN % IMEI % ICCID % Quy định % [DMPZM13UKD7V](serial) % [358699090601128](imei) % 8944475600034239263
+    - 06:06 % MEID % 35389310999535 % SN % [F2LCD6V8N70G](serial) % IMEI % ICCID % [353893109995358](imei) % Không xác định % Quy định
+    - MEID % 35389610206121 % SN % IMEI % ICCID % Quy định % [FK1ZG79VN70C](serial) % [353896102061219](imei) % Không xác định
+    - SN % IMEI % ICCID % Normative % [M7Q3Y2V21T](serial) % [359236733900663](imei) % Sconosciuto
+    - MEID % 35383210419623 % SN % [DNPZMDGPN6Y6](serial) % IMEI % [353832104196232](imei) % ICCID % Không xác định % Quy định
+    - MEID % 35287147258835 % SN % [HH6GX1320D3Y](serial) % IMEI % [352871472588357](imei) % ICCID % Không xác định
+    - MEID % SN % IMEI % ICCID % Quy định % 35291711415515 % [DNPCFE87N735](serial) % [352917114155152](imei) % Không xác định.
+    - MEID % 35133941399306 % SN % IMEI % ICCID % [L2G3HYVXJ7](serial) % [351339413993061](imei) % Không xác định % Quy định
+    - MEID % 35656810474503 % SN % [GONZWOU6N737](serial) % IMEI % [356568104745035](imei) % ICCID % Không xác định % Quy định
 - intent: chatbot_wants_to_check_icloud
   examples: |
     - check icloud
@@ -283,6 +294,28 @@ nlu:
     - check icloud [352888215893415](imei)
     - check icloud [J6023422LL](serial)
     - check icloud [DNPZVDT9N72Q](serial)
+    - Check iCloud ON/OFF [C6KSQTMAHG70](serial)
+    - [FMI On/Off Status](service_name) [C6KSQTMAHG70](serial)
+    - [FMI On/Off Status](service_name) [359237636208626](imei)
+    - [iCloud Clean/Lost Status (Cellular)](service_name) [C6KSQTMAHG70](serial)
+    - [FMI On/Off Status](service_name) [DMPZM13UKD7V](serial)
+    - [iCloud Clean/Lost Status (Cellular)](service_name) [353893109995358](imei)
+    - [FMI On/Off Status](service_name) [353893109995358](imei)
+    - [iCloud Clean/Lost Status (Cellular)](service_name) [353896102061219](imei)
+    - [FMI On/Off Status](service_name) [353896102061219](imei)
+    - [FMI On/Off Status](service_name) [353832104196232](imei)
+    - [FMI On/Off Status](service_name) [359236733900663](imei)
+    - [FMI On/Off Status](service_name) [352871472588357](imei)
+    - [FMI On/Off Status](service_name) [351339413993061](imei)
+    - [FMI On/Off Status](service_name) [F2LYLP5KKXKN](serial)
+    - [FMI On/Off Status](service_name) [F2NTDOLVHX9G](serial)
+    - [FMI On/Off Status](service_name) [352917114155152](imei)
+    - [FMI On/Off Status](service_name) [FFMXDEL8KPHM](serial)
+    - [FMI On/Off Status](service_name) [F2LWH3NUHFM4](serial)
+    - [iCloud Clean/Lost Status (Cellular)](service_name) [356568104745035](imei)
+    - [FMI On/Off Status](service_name) [356568104745035](imei)
+    - [iCloud Clean/Lost Status (Cellular)](service_name) [GXHDTON1N72N](serial)
+    - [iCloud Clean/Lost Status (Cellular)](service_name) [FCHZQ7TUN70G](serial)
 - intent: chatbot_wants_to_register_an_account_now
   examples: |
     - đăng ký tài khoản với id [2123456789](userId)
