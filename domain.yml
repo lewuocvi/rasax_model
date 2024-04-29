@@ -35,12 +35,8 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-intents: []
 entities: []
 slots: {}
-responses:
-  utter_start:
-  - text: bắt đầu
 actions: []
 forms: {}
 e2e_actions: []
