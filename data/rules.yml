@@ -44,3 +44,23 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: fallback
+- rule: chatbot_wants_to_check_icloud Rule
+  steps:
+  - intent: chatbot_wants_to_check_icloud
+  - action: chatbot_wants_to_check_icloud
+- rule: chatbot_wants_to_check_imei Rule
+  steps:
+  - intent: chatbot_wants_to_check_imei
+  - action: chatbot_wants_to_check_imei
+- rule: chatbot_wants_to_check_serial Rule
+  steps:
+  - intent: chatbot_wants_to_check_serial
+  - action: chatbot_wants_to_check_serial
+- rule: chatbot_wants_to_check_iphone_info Rule
+  steps:
+  - intent: chatbot_wants_to_check_iphone_info
+  - action: chatbot_wants_to_check_iphone_info
+- rule: chatbot_wants_to_check_ipad_info Rule
+  steps:
+  - intent: chatbot_wants_to_check_ipad_info
+  - action: chatbot_wants_to_check_ipad_info
