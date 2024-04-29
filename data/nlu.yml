@@ -89,3 +89,38 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: chatbots_start_conversations
+  examples: |
+    - Hey! Bắt đầu cuộc trò chuyện với id [9276315048](userId) để bắt đầu nào!
+    - Hello! Mình rất vui được kết nối với bạn! Bắt đầu cuộc trò chuyện với id [5827041963](userId) nhé!
+    - Chào bạn! Bắt đầu cuộc trò chuyện với id [7368950412](userId) để bắt đầu cuộc trò chuyện nhé!
+    - Hi, bạn muốn chia sẻ điều gì không? Bắt đầu cuộc trò chuyện với id [2094673185](userId) đi!
+    - Xin chào! Hãy bắt đầu cuộc trò chuyện với id [3148750926](userId) để chúng ta bắt đầu nào!
+    - Hey! Bạn có muốn bắt đầu cuộc trò chuyện không? Id của tôi là [6904312758](userId).
+    - Hello! Rất vui được gặp bạn! Bắt đầu cuộc trò chuyện với id [7359640281](userId) nhé!
+    - Chào bạn! Hãy bắt đầu cuộc trò chuyện với id [5042978163](userId) để bắt đầu!
+    - Hi! Bạn muốn nói chuyện về điều gì? Hãy bắt đầu cuộc trò chuyện với id [8291465073](userId) nhé!
+    - Xin chào! Bắt đầu cuộc trò chuyện với id [3105987426](userId) để chúng ta có thể trò chuyện nhé!
+    - Hey! Bắt đầu cuộc trò chuyện với id [6739281504](userId) để bắt đầu nào!
+    - Hello! Mình rất vui được kết nối với bạn! Bắt đầu cuộc trò chuyện với id [5196430728](userId) nhé!
+    - Chào bạn! Bắt đầu cuộc trò chuyện với id [8374510926](userId) để bắt đầu cuộc trò chuyện nhé!
+    - Hi, bạn muốn chia sẻ điều gì không? Bắt đầu cuộc trò chuyện với id [6029183475](userId) đi!
+    - Xin chào! Hãy bắt đầu cuộc trò chuyện với id [7492105368](userId) để chúng ta bắt đầu nào!
+    - Hey! Bạn có muốn bắt đầu cuộc trò chuyện không? Id của tôi là [8315069274](userId)
+    - Hello! Rất vui được gặp bạn! Bắt đầu cuộc trò chuyện với id [4927051836](userId) nhé!
+    - Chào bạn! Hãy bắt đầu cuộc trò chuyện với id [6158927403](userId) để bắt đầu!
+    - Hi! Bạn muốn nói chuyện về điều gì? Hãy bắt đầu cuộc trò chuyện với id [2875109346](userId) nhé!
+    - Xin chào! Bắt đầu cuộc trò chuyện với id [9436710258](userId) để chúng ta có thể trò chuyện nhé!
+    - Hey! Mình rất mong chờ cuộc trò chuyện với bạn! Bắt đầu với id [5309176428](userId) nhé!
+    - Hello! Bạn muốn chia sẻ điều gì với tôi không? Bắt đầu cuộc trò chuyện với id [8742506139](userId) nhé!
+    - Chào bạn! Bắt đầu cuộc trò chuyện với id [6329051748](userId) để bắt đầu!
+    - Hi, mình làm quen nha! Bắt đầu cuộc trò chuyện với id [7105932846](userId) đi!
+    - Xin chào! Bạn muốn chia sẻ điều gì hôm nay? Bắt đầu cuộc trò chuyện với id [9582704631](userId) nhé!
+    - Hey, bạn có thể nói chuyện được không? Id của tôi là [3762051498](userId). Hãy bắt đầu cuộc trò chuyện!
+    - Hello, có gì mới không? Hãy bắt đầu cuộc trò chuyện với id [4928170653](userId) đi!
+    - Chào bạn! Bạn muốn nói chuyện về điều gì? Bắt đầu với id [6153709824](userId) nhé!
+    - Hi, rất vui được kết nối với bạn! Hãy bắt đầu cuộc trò chuyện với id [2809475631](userId)
+    - Xin chào, bạn đã sẵn sàng bắt đầu cuộc trò chuyện chưa? Id của tôi là [7398021564](userId)
+    - Hãy bắt đầu chát id của tôi là [4205179836](userId)
+    - Hãy bắt đầu [6922749066](userId)

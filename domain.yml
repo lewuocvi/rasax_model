@@ -14,7 +14,14 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-
+  - chatbots_start_conversations
+  - chatbot_sends_greetings
+  - chatbot_sends_information_extracted_from_images
+  - chatbot_sends_imei_number
+  - chatbot_sends_serial_number
+  - chatbot_wants_to_register_an_account_now
+  - chatbot_wants_to_see_the_privacy_policy
+  - chatbot_agrees_to_the_privacy_policy
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -35,8 +42,53 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-entities: []
-slots: {}
-actions: []
+entities:
+- userId
+- action_name
+- service_name
+- imei
+- imei2
+- serial
+slots:
+  userId:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  action_name:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  service_name:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  imei:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  imei2:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  serial:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+actions:
+- fallback
+- chatbots_start_conversations
+- chatbot_sends_greetings
+- chatbot_sends_information_extracted_from_images
+- chatbot_sends_imei_number
+- chatbot_sends_serial_number
+- chatbot_wants_to_register_an_account_now
+- chatbot_wants_to_see_the_privacy_policy
+- chatbot_agrees_to_the_privacy_policy
 forms: {}
 e2e_actions: []
